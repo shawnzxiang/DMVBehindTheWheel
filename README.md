@@ -6,6 +6,14 @@ So I based off a blog post(source code https://gist.github.com/saikatbhadra/6629
 
 I was very pleased that I succesfully booked my appointment several times when someone canceled it within my desirable date that moved my date two weeks earlier. Please also note this script finds whatever the earliest time falls into, it does not check later time on the second page. 
 
+You will need to do the following:
+
+1. Look up your office id in officeIdList
+
+2. Write all your configuration in dmv.py
+
+3. Run in python (I used pyCharm which downloads all the library with 2.7 compatible)
+
 Anyway, this script can: 
 
 1. Find the appointment (uncomment the rest of if loop if you do not want the script to book it for you)
@@ -16,13 +24,7 @@ Anyway, this script can:
 
 4. Redirect you to appointment page, you can confirm and make sure it is booked while the program is terminated
 
-5. I used a simple PHP script on my site to send a text message.(see text.php) However, this requires a server setup for PHP. My email can never authenticate with python, so I just used a PHP on my website instead. Anyway, this is kind of trivial since the program will terminate once your appointment is successful.  
+5. I used a simple PHP script on my site to send a text message.(see text.php) However, this requires a server setup for PHP. My email can never authenticate with python, so I just used a PHP script on my website instead. Anyway, this is kind of trivial since the program will terminate once your appointment is successful.  
 
 
-You will need to do the following:
-
-1. Look up your office id in officeIdList
-
-2. Write all your configuration in dmv.py
-
-3. Run in python (I used pyCharm which downloads all the library with 2.7 compatible)
+Lastly, good luck with your DMV behind the wheel appointment
