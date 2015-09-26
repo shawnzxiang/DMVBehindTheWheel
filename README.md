@@ -18,6 +18,7 @@ Anyway, this script can:
 
 
 You will need to do the following:
+
 1. Look up your office id in officeIdList
 
 2. Write all your configuration in dmv.py
