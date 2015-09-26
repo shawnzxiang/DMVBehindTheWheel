@@ -27,4 +27,4 @@ Anyway, this script can:
 5. I used a simple PHP script on my site to send a text message.(see text.php) However, this requires a server setup for PHP. My email can never authenticate with python, so I just used a PHP script on my website instead. Anyway, this is kind of trivial since the program will terminate once your appointment is successful.  
 
 
-Lastly, good luck with your DMV behind the wheel appointment
+Lastly, good luck with your DMV behind the wheel appointment :)
