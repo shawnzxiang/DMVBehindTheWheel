@@ -5,6 +5,7 @@ I was tired of not finding a ideal DMV behind the wheel appointment and do all t
 I succesfully booked my appointment several times when someone canceled it within my desirable date. 
 
 Anyway, this script can: 
+
 1. Find the appointment (uncomment the rest of if loop if you do not want the script to book it for you)
 
 2. Book the appointment for you in as many as four steps. (Web errors can occur at this time such as when someone booked it     before you in which case it will retry)
