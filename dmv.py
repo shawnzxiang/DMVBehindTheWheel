@@ -91,13 +91,8 @@ def schedule(targetDate,name,officeId,telNumber,birthday,dlNumber,fromDate):
 
             appt_date = datetime.strptime(appt_text,'%A, %B %d, %Y at %I:%M %p')
             print ("Earliest time: %s that is %s days from now" %(appt_text, str((appt_date - datetime.today()).days)))
-            #You can specify the time you want
-            if appt_date <= tgt_date and appt_date>=from_date and appt_date.hour >=HOUR_START and appt_date.hour <=HOUR_END and appt_date.weekday != 4 and appt_date.weekday != 5:
-                #webbrowser.open("https://www.dmv.ca.gov/foa/clear.do?goTo=viewCancel")
-                #webbrowser.open("https://www.shawnxiang.com/dmv/email.php")
-                print("DATE FOUND" + str(appt_date))
-
             
+            #You can specify the time you want
             if appt_date <= tgt_date and appt_date>=from_date and appt_date.hour >=HOUR_START and appt_date.hour <=HOUR_END:
                 print("We found the date: %s to be possible", appt_date)
 
