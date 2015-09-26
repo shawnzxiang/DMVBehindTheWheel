@@ -10,11 +10,11 @@ Anyway, this script can:
 
 2. Book the appointment for you in as many as four steps. (Web errors can occur at this time such as when someone booked it     before you in which case it will retry)
 
-3. If there is no appointment available with the time specified, then it will retry later
+3. If there is no appointment available with the time specified, then it will retry again later. Technically you can do even do weekday or specific time excluded or included in the if condition
 
 4. Redirect you to appointment page, you can confirm and make sure it is booked while the program is terminated
 
-5. I used a simple PHP script on my site to send a text message.(see text.php) However, this is optional. 
+5. I used a simple PHP script on my site to send a text message.(see text.php) However, this requires a server setup for PHP. My email can never authenticate with python, so I just used a PHP on my website instead. Anyway, this is kind of trivial since the program will terminate once your appointment is successful.  
 
 
 You will need to do the following:
