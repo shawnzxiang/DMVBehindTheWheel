@@ -15,7 +15,7 @@ YEAR = '2015' #Used to identify the string
 
 TGT_DATE = 'October 1, 2015' #Example: 'September 30, 2015'
 START_DATE = 'September 18, 2015' # Example: 'September 18, 2015'
-OFFICE_ID = '111' # 3 digit number. Find it by inspect element of the web page to find the page id
+OFFICE_ID = '111' # 3 digit number. Find it from officeIdList file or inspect element on html file
 NAME = 'JOHN SMITH' # Example: FIRSTNAME LASTNAME
 DATE_OF_BIRTH = '12-21-1993' # Example: 12-21-1993
 LICENCE_NUMBER = "Y1234567" # Example: Y1234567
