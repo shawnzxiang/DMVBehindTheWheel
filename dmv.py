@@ -23,7 +23,7 @@ TEL_NUMBER = "530-123-4567" # Example: 530-123-4567
 TASK = 'DT' # DT: driving. Do not change unless you want to schedule motorcycle
 
 # Please set it 120 secs or higher to be considerate for others
-REFRESH_RATE_IN_SEC = 30 # Refresh rate in seconds
+REFRESH_RATE_IN_SEC = 120 # Refresh rate in seconds
 
 # Hour of the day, military time / 24hr e.g. 16 is 4pm
 HOUR_START = 9
@@ -125,7 +125,10 @@ def schedule(targetDate,name,officeId,telNumber,birthday,dlNumber,fromDate):
                         #Open up a browser to check if it is register
                         #When there is a lag, you can always refresh it or register again to check if you have registered
                         webbrowser.open('https://www.dmv.ca.gov/foa/clear.do?goTo=viewCancel')
-
+                        
+                        #Send text message (You need to setup text.php on your personal website or host)
+                        #webbrowser.open('https://yourdomain.com/text.php'); 
+                        
                         with open("record.txt", "a") as myfile:
                             myfile.write(logString)
 
