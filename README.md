@@ -10,7 +10,7 @@ Anyway, this script can:
 
 2. Book the appointment for you in as many as four steps. (Web errors can occur at this time such as when someone booked it     before you in which case it will retry)
 
-3. If there is no appointment avaialable with the time specified, then it will retry later
+3. If there is no appointment available with the time specified, then it will retry later
 
 4. Redirect you to appointment page, you can confirm and make sure it is booked while the program is terminated
 
